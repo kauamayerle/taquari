@@ -104,14 +104,6 @@ img {
     padding: 10px 0px;
 }
 
-source.pequeno {
-    display: block;
-    margin: auto;
-    max-width: 350px;
-    max-height: 350px;
-    padding: 10px 0px;
-}
-
 aside {
     background-color: #083d49;
     margin: auto;

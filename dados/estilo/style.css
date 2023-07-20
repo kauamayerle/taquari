@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'bebas';
-    src: url('../fonte/BebasNeue-Regular.ttf') format('truetype');
+    src: url('../../fonte/BebasNeue-Regular.ttf') format('truetype');
 }
 
 * {
@@ -77,7 +77,15 @@ main h1 {
 main h2 {
     font-size: 1.5em;
     font-family: 'bebas', cursive;
-    color: #0a4957;
+    color: #0e5a6b;
+    margin: 0px 10px;
+    padding: 10px 0px;
+}
+
+main h3 {
+    font-size: 1.5em;
+    font-family: 'bebas', cursive;
+    color: #10768d;
     margin: 0px 10px;
     padding: 10px 0px;
 }
@@ -87,11 +95,6 @@ main p {
     line-height: 25px;
     margin: 0px 10px;
 }
-
-strong {
-    color: #083d49;
-}
-
 main > img {
     padding: 0px 20px;
 }
@@ -108,12 +111,9 @@ img {
     padding: 10px 0px;
 }
 
-source.pequeno {
-    display: block;
-    margin: auto;
-    max-width: 350px;
-    max-height: 350px;
-    padding: 10px 0px;
+div > img {
+    display: none;
+    
 }
 
 aside {
@@ -130,6 +130,19 @@ aside {
 
 aside > h2 {
     color: white;
+}
+
+aside ul {
+    background-color: #649297;
+    margin: auto;
+    color: black;
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+aside ul > li:hover {
+    color: #89c3ca;
 }
 
 footer {
