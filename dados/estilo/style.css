@@ -145,6 +145,14 @@ aside ul > li:hover {
     color: #89c3ca;
 }
 
+aside abbr {
+    text-decoration: line-through;
+}
+
+aside abbr:hover {
+    text-decoration: none;
+}
+
 footer {
     background-color: #083d49;
     color: white;
